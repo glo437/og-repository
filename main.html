@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100vw;
+        }
+        .parent-container{
+            background-color: chartreuse;
+            width:50%
+        }
+.box-model{
+    width: 300px;
+    height: 300px;
+    border: 2px #333 solid;
+    margin: 200px 50px;
+}
+
+.header, 
+.body, 
+.footer{
+    height: 30%;
+    width: 100%;
+    border: 1px #333 solid;
+    padding: 4px 10px;
+}
+.ball-container{
+    width: 50%;
+    height: 50%;
+    border: red solid;
+    border-radius: 15px;  
+}
+.ball{
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+}
+ </style>
+</head>
+<body>
+   <div class="parent-container">
+    <p>Lorem ipsum dolor sit amet consectetur
+     adipisicing elit. Dolores eaque assumenda 
+     iure ex aliquid earum sunt facilis officia? Animi velit blanditiis commodi sed est quasi 
+    temporibus voluptatibus doloribus reprehenderit voluptatum.
+    </p>
+   </div> 
+
+<div class="box-model">
+    <div class="header"></div>
+    <div class="ball-container"></div>
+    <div class="ball"></div>
+    <div class="body"></div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
